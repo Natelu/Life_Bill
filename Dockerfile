@@ -1,5 +1,5 @@
 FROM python:3.8-rc
-LABEL MAINTAINER=chenc136<chenc136@chinaunicom.cn>
+LABEL MAINTAINER=Lu
 COPY voice_backend /voice_backend
 RUN pip install --upgrade pip; \
 	pip install requests jieba django
